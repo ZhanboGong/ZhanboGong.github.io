@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Zhanbo Gong — software engineering and artificial intelligence resume" />
+    <title>Zhanbo Gong — Resume</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="content.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="resume">
+      <div class="toolbar">
+        <div class="language-switcher" aria-label="Language">
+          <button type="button" class="language-button active" data-lang="en" aria-pressed="true">English</button>
+          <button type="button" class="language-button" data-lang="zh" aria-pressed="false">中文</button>
+        </div>
+        <a class="resume-download" id="resume-download" href="#" download hidden>Download PDF</a>
+      </div>
+
+      <header class="profile-header">
+        <img
+          class="profile-photo"
+          id="profile-photo"
+          src="assets/profile.jpg"
+          alt="Portrait of Zhanbo Gong"
+        />
+        <div class="profile-intro">
+          <h1 id="profile-name">Zhanbo Gong</h1>
+          <p class="profile-role" id="profile-role">Software Engineering Master's Student</p>
+          <p class="profile-summary" id="profile-summary">
+            Software engineering master's student specialising in artificial intelligence, with a Bachelor of Information Technology and software development internship experience.
+          </p>
+          <div class="contact-list" id="contact-list"></div>
+        </div>
+      </header>
+
+      <div class="resume-body">
+        <div class="main-column">
+          <section class="resume-section" aria-labelledby="about-title">
+            <h2 id="about-title">Profile</h2>
+            <div class="about-copy" id="about-copy"></div>
+          </section>
+
+          <section class="resume-section" aria-labelledby="experience-title">
+            <h2 id="experience-title">Experience</h2>
+            <div id="experience-list"></div>
+          </section>
+
+          <section class="resume-section" aria-labelledby="education-title">
+            <h2 id="education-title">Education</h2>
+            <div id="education-list"></div>
+          </section>
+        </div>
+
+        <aside class="side-column">
+          <section class="resume-section" aria-labelledby="details-title">
+            <h2 id="details-title">Details</h2>
+            <dl class="details-list" id="details-list"></dl>
+          </section>
+
+          <section class="resume-section" aria-labelledby="skills-title">
+            <h2 id="skills-title">Skills</h2>
+            <div id="skills-list"></div>
+          </section>
+        </aside>
+      </div>
+
+      <footer class="footer">
+        <span id="footer-copy">© 2026 Zhanbo Gong</span>
+        <a id="footer-email" href="mailto:Caleb_Gong@51m0jc.onmicrosoft.com">Caleb_Gong@51m0jc.onmicrosoft.com</a>
+      </footer>
+    </main>
+  </body>
+</html>
