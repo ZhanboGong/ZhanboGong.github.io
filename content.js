@@ -30,7 +30,7 @@ window.PORTFOLIO_CONTENT = {
   },
 
   contact: {
-    email: "Caleb_Gong@51m0jc.onmicrosoft.com",
+    email: "zhanbogong11@gmail.com",
     linkedin: "",
     github: "https://github.com/ZhanboGong",
     other: "",
